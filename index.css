@@ -1,0 +1,106 @@
+body{
+    background-color: black; 
+    color: white;
+}
+
+.my-row{
+    margin-top:4%;
+    margin-left:8%;
+    /* color:white !important; */
+}
+
+.text{
+    border-radius: 2%;
+    /* width: 200px; */
+    padding: 2%;
+    cursor: pointer;
+}
+
+.text-1{
+    border: 2px solid rgb(25, 148, 148);
+
+}
+
+.text-2{
+    border: 2px solid white;
+
+}
+
+.text-3{
+    border: 2px solid rgb(82, 25, 148);
+
+}
+
+.text-4{
+    border: 2px solid green;
+
+}
+
+.text-5{
+    border: 2px solid orangered;
+
+}
+
+.text-4:hover{
+    box-shadow: 0px 0px 5px 5px green;
+
+}
+.text-5:hover{
+    box-shadow: 0px 0px 5px 5px orangered;
+
+}
+
+.text-1:hover{
+    box-shadow: 0px 0px 5px 5px rgb(25, 148, 148);
+}
+
+.text-2:hover{
+    box-shadow: 0px 0px 5px 5px white;
+}
+
+.text-3:hover{
+    box-shadow: 0px 0px 5px 5px rgb(82, 25, 148);
+}
+
+.card-img-top{
+    height: 19rem;
+}
+
+.my-container {
+    position: relative;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+.text-block {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: white;
+    padding-left: 420px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+
+.footer{
+    text-align: center;
+}
+
+.my-nav{
+    color:white !important;
+}
+
+a, a:visited, a:active, a:hover{
+    text-decoration: none;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    float: left;   
+}
+
+.icon{
+    padding: 15px;
+}
